@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-image-selector-example-image {
+    .components-spinner {
+        margin: 0;
+        float: none;
+    }
+    
+    .components-button + .components-button {
+        margin-top: 1em;
+        margin-right: 8px;
+    }
+}
+
+.wp-block-image-selector-example-image-selector {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ov-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s, z-index 1s;
+
+    &.ov-slide-active {
+        position: relative;
+        z-index: 1;
+        opacity: 1;
+    }
+}
+
+

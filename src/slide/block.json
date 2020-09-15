@@ -1,0 +1,14 @@
+{
+	"name": "ov/slider",
+	"title": "Slider",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Contains slide blocks",
+	"textdomain": "first-block",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
