@@ -9,7 +9,7 @@ import { withSelect } from '@wordpress/data';
 import './editor.scss';
 
 const ALLOWED_MEDIA_TYPES = [ 'image' ];
-const SLIDE_ALLOWED_BLOCKS = [ 'core/paragraph', 'core/heading', 'core/buttons', 'core/columns' ];
+const SLIDE_ALLOWED_BLOCKS = [ 'core/paragraph', 'core/heading', 'core/buttons' ];
 
 class SlideEdit extends Component {
     render() {
@@ -26,7 +26,8 @@ class SlideEdit extends Component {
             width: '100%',
             minHeight: '300px',
             backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            overflow: 'auto'
         };
         if ( bgImage && bgImage.source_url ) {
             styles.backgroundImage = `url(${ bgImage.source_url })`;

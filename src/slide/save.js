@@ -9,7 +9,8 @@ export default function save( { attributes } ) {
 		width: '100%',
 		minHeight: '300px',
 		backgroundSize: 'cover',
-		backgroundRepeat: 'no-repeat'
+		backgroundRepeat: 'no-repeat',
+		overflow: 'auto'
 	};
 	if ( bgImageUrl ) {
 		styles.backgroundImage = `url(${ bgImageUrl })`;

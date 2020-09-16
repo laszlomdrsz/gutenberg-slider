@@ -21,7 +21,9 @@
         top: 130px;
         z-index: 5;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.25);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid #666;
+        color: #666;
         cursor: pointer;
         @include user-select(none);
         
