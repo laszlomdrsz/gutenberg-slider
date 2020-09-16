@@ -1,6 +1,6 @@
 import { __ } from '@wordpress/i18n';
 
-const { InnerBlocks } = wp.editor;
+import { InnerBlocks } from '@wordpress/block-editor';
 
 export default function save( { attributes } ) {
 	const { clientId } = attributes;

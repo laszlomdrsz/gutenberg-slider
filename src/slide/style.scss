@@ -6,6 +6,11 @@
  */
 
  .wp-block-image-selector-example-image {
+
+    img {
+        margin-bottom: 1em;
+    }
+
     .components-spinner {
         margin: 0;
         float: none;

@@ -1,8 +1,5 @@
 import { __ } from '@wordpress/i18n';
-
-const { InnerBlocks } = wp.editor;
-const { useSelect } = wp.data;
-const { dispatch } = wp.data;
+import { InnerBlocks } from '@wordpress/block-editor';
 
 export default function save( { attributes } ) {
 	const { bgImageUrl, clientId, parentClientId } = attributes;

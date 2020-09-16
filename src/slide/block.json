@@ -1,13 +1,10 @@
 {
-	"name": "ov/slider",
-	"title": "Slider",
+	"name": "ov/slide",
+	"title": "Slide",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Contains slide blocks",
-	"textdomain": "first-block",
-	"supports": {
-		"html": false
-	},
+	"description": "Contains background image with paragraphs, headings and buttons.",
+	"textdomain": "ov",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css"

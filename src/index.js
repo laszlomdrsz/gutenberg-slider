@@ -1,6 +1,5 @@
 import { registerBlockType } from '@wordpress/blocks';
 
-import sliderController from './sliderController.js'
 import * as slide from './slide';
 import * as slider from './slider';
 

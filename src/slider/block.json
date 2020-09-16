@@ -4,10 +4,7 @@
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Contains slides",
-	"textdomain": "first-block",
-	"supports": {
-		"html": false
-	},
+	"textdomain": "ov",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css"
